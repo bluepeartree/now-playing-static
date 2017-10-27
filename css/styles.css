@@ -195,3 +195,76 @@ figure {
 .about > p {
   margin: 0;
 }
+
+
+/*Resizing for tablet*/
+
+@media screen and (min-width:768px) {
+
+  .movie-overview {
+    display: inline;
+  }
+
+  .movie {
+    max-width: 88%;
+    float:right;
+  }
+
+  .site-header {
+    position: fixed;
+    float:left;
+    top:0;
+    bottom: 0;
+    left: 0;
+    width: 12%;
+    z-index: 200;
+    background-color: #ffffff;
+  }
+
+  h1.site-logo  {
+  max-width: 6%;
+  visibility: visible;
+  align-content: center;
+  left:2%;
+  }
+
+  .site-nav {
+      position: absolute;
+      top:11%;
+      left:18%;
+      right: 0;
+      width: 12%;
+      z-index: 100;
+      background-color: #ffffff;
+      align-content: center;
+    }
+
+    img.site-logo-image {
+    height: 50px;
+    left: -6%;
+    }
+
+    footer{
+      position:relative;
+      width: 88%;
+      float: right;
+    }
+
+    nav.footer-nav {
+    BACKground: black;
+    color: white;
+
+}
+
+/*Resizing for bigscreen*/
+
+@media screen and (min-width:992px) {
+
+.movie-backdrop:nth-last-of-type(-n+19){
+  display: none;
+}
+
+
+
+
+}
